@@ -20,7 +20,7 @@ export default function AboutSection() {
           <div className={`md:w-1/3 slide-in-left ${isInView ? 'in-view' : ''}`}>
             <div className="relative rounded-full overflow-hidden aspect-square border-4 border-primary/20 shadow-xl mx-auto">
               <img 
-                src="/ujjwal-profile.jpg" 
+                src="/ujjwal-profile-new.jpg" 
                 alt="Ujjwal Kumar" 
                 className="object-cover w-full h-full"
               />
