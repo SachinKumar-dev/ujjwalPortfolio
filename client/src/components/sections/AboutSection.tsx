@@ -78,7 +78,7 @@ export default function AboutSection() {
           </div>
         </div>
         
-        <div className="flex justify-center mt-12">
+        <div className="flex justify-start mt-12 ml-0 sm:ml-4 md:ml-0">
           <a 
             href="https://drive.google.com/file/d/1PstFCVkirsmT0e_Hnp0jjAbWWQyuNM5w/view?usp=sharing" 
             target="_blank"
