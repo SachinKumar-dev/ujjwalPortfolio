@@ -1,0 +1,93 @@
+Build a personal portfolio website for Ujjwal Kumar, a PGDM student specializing in Operations. The site should be professional, minimalist, and visually clean, with subtle smooth animations. It should support Dark Mode and Light Mode toggle.
+
+Key Requirements:
+Sections (single-page layout with smooth scrolling):
+
+Hero Section
+
+Name: Ujjwal Kumar
+
+Title: PGDM Student – Operations
+
+Short tagline: “Results-driven operations enthusiast aiming to optimize processes and enhance supply chain performance.”
+
+About
+
+Photo placeholder (optional).
+
+Paragraph highlighting:
+“Currently pursuing a Post Graduate Diploma in Management (Operations) at I Business Institute, Greater Noida. Passionate about logistics, inventory control, and data-driven business optimization.”
+
+Education
+
+I Business Institute, Greater Noida – PGDM in Operations (2024–2026)
+
+Marwari College – B.Sc. in Physics Honors (2020–2023)
+
+Work Experience
+
+Spar Hyper Mart (Landmark Group), Retail Associate (Feb 2024 – Mar 2025)
+Include key bullet points:
+
+Assisted customers and enhanced shopping experience
+
+Managed inventory and product displays
+
+Handled billing and maintained sales records
+
+Ensured operational efficiency in-store
+
+Live Projects
+
+Operations Process Improvement – Royal Enfield (Nov 2024 – Dec 2024)
+
+Impact of Root Cause Analysis and Poka-Yoke
+
+Studied sales trends and quality control
+
+Retail Marketing (Feb 2025)
+
+Consumer behavior study
+
+Retail operations, inventory, and billing experience
+
+Certifications
+
+Retail Associate (Feb 2025)
+
+Advanced Excel (Nov 2024)
+
+Power BI (Mar 2025)
+
+Technical & Soft Skills
+
+Excel, Power BI, SQL, Python, MS PowerPoint, Communication, Team Coordination
+
+Clubs & Participation
+
+Debate (Sep 2024): Topic – OTT Regulations
+
+Marketing Club (Jan 2025): Charitravan Chai Stall – Achieved double ROI
+
+Panel Discussion (Mar 2025): Financial Budgeting
+
+Operations Club (Apr 2025): Vendor Management Simulation
+
+Contact Info
+
+Email: ujjwal0770@gmail.com
+
+Phone: +91-7209220121
+
+LinkedIn: https://www.linkedin.com/in/ujjwal-kumar-47365b225/
+
+Design Notes:
+Use minimal animations like fade-in or slide-in for sections.
+
+Use a clean sans-serif font.
+
+Toggle switch for Dark Mode / Light Mode.
+
+Use an operations-inspired color palette (e.g., industrial tones, efficient grids, charts or icons if needed).
+
+No contact form – just display the contact details.
