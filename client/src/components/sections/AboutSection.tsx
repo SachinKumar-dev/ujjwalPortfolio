@@ -19,7 +19,7 @@ export default function AboutSection() {
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className={`md:w-2/5 slide-in-left ${isInView ? 'in-view' : ''}`}>
             <img 
-              src="/images/ujjwal-profile.jpg" 
+              src="/ujjwal-profile.jpg" 
               alt="Ujjwal Kumar" 
               className="rounded-lg shadow-xl object-cover w-full h-auto card-hover"
             />
