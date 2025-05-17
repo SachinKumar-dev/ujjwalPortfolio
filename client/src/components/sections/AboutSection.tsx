@@ -78,21 +78,7 @@ export default function AboutSection() {
           </div>
         </div>
         
-        <div className="md:flex md:pl-[33.33%] mt-6">
-          <div className="md:w-2/3">
-            <a 
-              href="https://drive.google.com/file/d/1PstFCVkirsmT0e_Hnp0jjAbWWQyuNM5w/view?usp=sharing" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center px-6 py-3 bg-primary hover:bg-primary/90 text-white rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-1"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-              </svg>
-              Download Resume
-            </a>
-          </div>
-        </div>
+        
       </div>
     </section>
   );
