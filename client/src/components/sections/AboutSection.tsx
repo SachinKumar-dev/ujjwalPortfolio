@@ -17,22 +17,22 @@ export default function AboutSection() {
         <h2 className="text-3xl font-bold mb-12 text-center">About Me</h2>
         
         <div className="flex flex-col md:flex-row gap-12 items-center">
-          <div className="md:w-2/5">
+          <div className={`md:w-2/5 slide-in-left ${isInView ? 'in-view' : ''}`}>
             <img 
-              src="https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" 
-              alt="Minimalist workspace representation" 
-              className="rounded-lg shadow-xl object-cover w-full h-auto"
+              src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" 
+              alt="Professional workspace representation" 
+              className="rounded-lg shadow-xl object-cover w-full h-auto card-hover"
             />
           </div>
           
-          <div className="md:w-3/5">
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
+          <div className={`md:w-3/5 slide-in-right ${isInView ? 'in-view' : ''}`}>
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 card-hover">
               <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-6">
                 Currently pursuing a Post Graduate Diploma in Management (Operations) at I Business Institute, Greater Noida. Passionate about logistics, inventory control, and data-driven business optimization.
               </p>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
-                <div className="flex items-center">
+                <div className={`flex items-center scale-up ${isInView ? 'in-view' : ''}`} style={{transitionDelay: '0.1s'}}>
                   <div className="bg-primary/10 dark:bg-primary/20 p-3 rounded-full mr-4">
                     <ChartLine className="h-5 w-5 text-primary dark:text-primary" />
                   </div>
@@ -42,7 +42,7 @@ export default function AboutSection() {
                   </div>
                 </div>
                 
-                <div className="flex items-center">
+                <div className={`flex items-center scale-up ${isInView ? 'in-view' : ''}`} style={{transitionDelay: '0.2s'}}>
                   <div className="bg-primary/10 dark:bg-primary/20 p-3 rounded-full mr-4">
                     <Cog className="h-5 w-5 text-primary dark:text-primary" />
                   </div>
@@ -52,7 +52,7 @@ export default function AboutSection() {
                   </div>
                 </div>
                 
-                <div className="flex items-center">
+                <div className={`flex items-center scale-up ${isInView ? 'in-view' : ''}`} style={{transitionDelay: '0.3s'}}>
                   <div className="bg-primary/10 dark:bg-primary/20 p-3 rounded-full mr-4">
                     <Truck className="h-5 w-5 text-primary dark:text-primary" />
                   </div>
@@ -62,7 +62,7 @@ export default function AboutSection() {
                   </div>
                 </div>
                 
-                <div className="flex items-center">
+                <div className={`flex items-center scale-up ${isInView ? 'in-view' : ''}`} style={{transitionDelay: '0.4s'}}>
                   <div className="bg-primary/10 dark:bg-primary/20 p-3 rounded-full mr-4">
                     <Users className="h-5 w-5 text-primary dark:text-primary" />
                   </div>
