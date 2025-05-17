@@ -17,15 +17,17 @@ export default function AboutSection() {
         <h2 className="text-3xl font-bold mb-12 text-center">About Me</h2>
         
         <div className="flex flex-col md:flex-row gap-12 items-center">
-          <div className={`md:w-2/5 slide-in-left ${isInView ? 'in-view' : ''}`}>
-            <img 
-              src="/ujjwal-profile.jpg" 
-              alt="Ujjwal Kumar" 
-              className="rounded-lg shadow-xl object-cover w-full h-auto card-hover"
-            />
+          <div className={`md:w-1/3 slide-in-left ${isInView ? 'in-view' : ''}`}>
+            <div className="relative rounded-full overflow-hidden aspect-square border-4 border-primary/20 shadow-xl mx-auto">
+              <img 
+                src="/ujjwal-profile.jpg" 
+                alt="Ujjwal Kumar" 
+                className="object-cover w-full h-full"
+              />
+            </div>
           </div>
           
-          <div className={`md:w-3/5 slide-in-right ${isInView ? 'in-view' : ''}`}>
+          <div className={`md:w-2/3 slide-in-right ${isInView ? 'in-view' : ''}`}>
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 card-hover">
               <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-6">
                 Currently pursuing a Post Graduate Diploma in Management (Operations) at I Business Institute, Greater Noida. Passionate about logistics, inventory control, and data-driven business optimization.
