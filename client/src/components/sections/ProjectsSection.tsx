@@ -17,7 +17,7 @@ const projects: Project[] = [
     title: "Operations Process Improvement",
     tag: "Royal Enfield",
     date: "Nov 2024 – Dec 2024",
-    image: "https://images.unsplash.com/photo-1558980664-10e7170b5df9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
     points: [
       "Impact of Root Cause Analysis and Poka-Yoke",
       "Studied sales trends and quality control"
@@ -28,7 +28,7 @@ const projects: Project[] = [
     title: "Retail Marketing",
     tag: "Market Research",
     date: "Feb 2025",
-    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    image: "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
     points: [
       "Consumer behavior study",
       "Retail operations, inventory, and billing experience"

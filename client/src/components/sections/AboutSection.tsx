@@ -19,8 +19,8 @@ export default function AboutSection() {
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className={`md:w-2/5 slide-in-left ${isInView ? 'in-view' : ''}`}>
             <img 
-              src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" 
-              alt="Professional workspace representation" 
+              src="/images/ujjwal-profile.jpg" 
+              alt="Ujjwal Kumar" 
               className="rounded-lg shadow-xl object-cover w-full h-auto card-hover"
             />
           </div>
